@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_events.cpp">
+    <ClCompile Include="04_key_presses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

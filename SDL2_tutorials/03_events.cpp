@@ -97,6 +97,7 @@ int main(int argc, char* args[]) {
 				while (SDL_PollEvent(&e) != 0) {
 					// User requests quit
 					if (e.type == SDL_QUIT) quit = true;
+					printf("%d\n", e.key);
 				}
 			// Apply image
 			SDL_BlitSurface(gXOut, NULL, gScreenSurface, NULL);
